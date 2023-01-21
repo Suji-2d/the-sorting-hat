@@ -1,0 +1,77 @@
+// {
+//     "1":"I Am the life of the party.",
+//     "26":"I Have little to say.",
+//     "2":"I Feel little concern for others.", 
+//     "27":"I Have a soft heart.", 
+//     "3":"I Am always prepared.",
+//     "28":"I Often forget to put things back in their proper place.", 
+//     "4":"I Get stressed out easily.", 
+//     "29":"I Get upset easily.", 
+//     "5":"I Have a rich vocabulary.", 
+//     "30":"I Do not have a good imagination.", 
+//     "6":"I Don't talk a lot.", 
+//     "31":"I Talk to a lot of different people at parties.", 
+//     "7":"I Am interested in people.", 
+//     "32":"I Am not really interested in others.", 
+//     "8":"I Leave my belongings around.", 
+//     "33":"I Like order.", 
+//     "9":"I Am relaxed most of the time.", 
+//     "34":"I Change my mood a lot.", 
+//     "10":"I Have difficulty understanding abstract ideas.", 
+//     "35":"I Am quick to understand things.", 
+//     "11":"I Feel comfortable around people.", 
+//     "36":"I Don't like to draw attention to myself.", 
+//     "12":"I Insult people.", 
+//     "37":"I Take time out for others.", 
+//     "13":"I Pay attention to details.", 
+//     "38":"I Shirk my duties.", 
+//     "14":"I Worry about things.", 
+//     "39":"I Have frequent mood swings.", 
+//     "15":"I Have a vivid imagination.", 
+//     "40":"I Use difficult words.", 
+//     "16":"I Keep in the background.", 
+//     "41":"I Don't mind being the center of attention.", 
+//     "17":"I Sympathize with others' feelings.",
+//     "42":"I Feel others' emotions.", 
+//     "18":"I Make a mess of things.",
+//     "43":"I Follow a schedule.", 
+//     "19":"I Seldom feel blue.", 
+//     "44":"I Get irritated easily.", 
+//     "20":"I Am not interested in abstract ideas.", 
+//     "45":"I Spend time reflecting on things.", 
+//     "21":"I Start conversations.", 
+//     "46":"I Am quiet around strangers.", 
+//     "22":"I Am not interested in other people's problems.", 
+//     "47":"I Make people feel at ease.", 
+//     "23":"I Get chores done right away.", 
+//     "48":"I Am exacting in my work.", 
+//     "24":"I Am easily disturbed.", 
+//     "49":"I Often feel blue.", 
+//     "25":"I Have excellent ideas.", 
+//     "50":"I Am full of ideas."
+// }
+// E = 20 + (1) ___ - (6) ___ + (11) ___ - (16)X ___ + (21) ___ - (26) ___ + (31)X ___ - (36)X ___ + (41)X ___ - (46)X  +3,-2  == 7
+
+//A = 14 - (2) X___ + (7)X ___ - (12) ___ + (17) ___ - (22) ___ + (27) ___ - (32)X ___ + (37) ___ + (42)X ___ + (47)X ___ -2,+3  == 7
+
+//C = 14 + (3) ___ - (8)X ___ + (13) ___ - (18)X ___ + (23) ___ - (28) ___ + (33)X ___ - (38) ___ + (43)X ___ + (48)X ___  -2,+3  == 7
+
+//N = 38 - (4) ___ + (9) ___ - (14) ___ + (19)X ___ - (24)X ___ - (29) X___ - (34)X ___ - (39) ___ - (44) X___ - (49) ___  -4,+1  == 19
+
+//O = 8 + (5)X ___ - (10) ___ + (15) ___ - (20)X ___ + (25)X ___ - (30)X ___ + (35) ___ + (40)X ___ + (45) ___ + (50) ___   -1,+4  == 1
+
+
+
+E = 7 +{1}-{2}+{11}+{21}-{7}
+A = 7 +{3}+{13}+{19}-{12}-{22}
+C = 7 +{4}+{14}+{23}-{5}-{15}
+N = 19 +{8}-{6}-{16}-{17}-{24}
+O = 1 +{10}+{18}+{20}+{25}-{9}
+
+-------model
+
+#Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism # mean and SD
+[41.03, 6.32], [35.58, 7.13], [31.02, 12.20], [40.51, 7.35], [30.66, 11.17], #Griffindor
+[39.41, 9.33], [36.76, 6.17], [27.79, 13.16], [41.61, 7.27], [30.00, 12.13], #Hufflepuff
+[41.98, 8.23], [36.76, 6.17], [28.52, 11.17], [40.51, 7.35], [29.55, 11.17], #Ravenclow
+[40.51, 7.35], [39.70, 6.10], [27.42, 11.17], [36.17, 10.22], [28.97, 12.20] #Slytherin
