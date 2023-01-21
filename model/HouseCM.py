@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 # creat data frame
 griffindor_df = pd.DataFrame(data={
-    'House':['Griffindor']*12500,
+    'House':['Gryffindor']*12500,
     'Extroversion': np.random.normal(35.02, 12.20, 12500), 
     'Agreeableness':np.random.normal(40.51, 7.35, 12500),
     'Conscientiousness':np.random.normal(35.88, 7.13, 12500),
@@ -25,7 +25,7 @@ hufflepuff_df = pd.DataFrame(data={
     'Openness':np.random.normal(39.41, 9.33, 12600)}
 )
 ravenclow_df = pd.DataFrame(data={
-    'House':['Ravenclow']*21400,
+    'House':['Ravenclaw']*21400,
     'Extroversion': np.random.normal(29.52, 11.17, 21400), 
     'Agreeableness':np.random.normal(39.41, 7.35, 21400),
     'Conscientiousness':np.random.normal(36.76, 6.17, 21400),
