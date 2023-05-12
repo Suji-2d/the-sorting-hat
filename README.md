@@ -9,5 +9,5 @@ The Naive Bayes Classification model was employed to accurately identify the hou
 By leveraging machine learning and the Big Five personality approach, the Sorting Hat project aimed to provide an engaging and interactive experience for users, replicating the sorting process seen in the renowned Harry Potter series.
 
 Deployment platform: Streamlit  
-App-link: https://suji-2d-the-sorting-hat-sortinghat-app-htyzgr.streamlit.app/
+App-link: https://suji-2d-the-sorting-hat-sortinghat-app-htyzgr.streamlit.app/  
 reference: Zhi-Dan Zhao and Ming-Sheng Shang (2010). User-Based Collaborative-Filtering Recommendation Algorithms on Hadoop. 2010 Third International Conference on Knowledge Discovery and Data Mining. doi:https://doi.org/10.1109/wkdd.2010.54.
